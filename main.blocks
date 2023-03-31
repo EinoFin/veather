@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="%@N.CoIXV|v}gy,OUneq" x="0" y="0"><statement name="HANDLER"><block type="weatherbit_setupBME280" id="[^y^1?(`%tau$zxIT1=3"><next><block type="weatherbit_startRainMonitoring" id="YXVmilY0T?O.F5,S1BtC"><next><block type="weatherbit_startWindMonitoring" id="Mj67@/[4S,H8h$3PO{~}"></block></next></block></next></block></statement></block><block type="bluetooth_on_connected" id="dsx:b}2tW-~2u[%Qf0*7" x="288" y="0"><statement name="HANDLER"><block type="function_call" id="CE!ZF-{c_)((W*ho7_E{"><mutation name="loss" functionid="ZWQZ.:qk4_O$On3u2MBF"></mutation></block></statement></block><block type="function_definition" id="{m1$s?Gti-!49Bq;WMe!" collapsed="true" x="569" y="0"><mutation name="loss" functionid="ZWQZ.:qk4_O$On3u2MBF"></mutation><field name="function_name">loss</field><statement name="STACK"><block type="device_show_leds" id="ay=l8%c*MAv`3Xl2?L8P"><field name="LEDS">`
+        # # . . . 
+        # # . . . 
+        # # . . . 
+        # # . . . 
+        # # . . .
+        `</field><next><block type="device_pause" id="`CVMILU}w+we5Dy1Il9G"><value name="pause"><shadow type="timePicker" id="YP2h:^WJ`nMQH_,G^Pk,"><field name="ms">5000</field></shadow></value><next><block type="device_show_leds" id="WmGEfa|9aKuOcZ|APoiN"><field name="LEDS">`
+        # # . . . 
+        # # . . . 
+        # # . # # 
+        # # . # # 
+        # # . # #
+        `</field><next><block type="device_pause" id="@slB4+uW^sOxVti|P;uh"><value name="pause"><shadow type="timePicker" id="x^P~@qk@z~BrV)eRPclX"><field name="ms">5000</field></shadow></value><next><block type="device_show_leds" id="(NTxU7,..O1g^Ya@K_Jr"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        # # . # # 
+        # # . # # 
+        # # . # #
+        `</field><next><block type="device_pause" id="4;bu5d60l`|%$dY(w~U+"><value name="pause"><shadow type="timePicker" id="Ih#)[|-nq%%pJW3a$Se6"><field name="ms">5000</field></shadow></value><next><block type="device_show_leds" id="An5BN7A^R!JKg,.}g:h["><field name="LEDS">`
+        # # . . . 
+        # # . . . 
+        # # . . . 
+        # # # # # 
+        # # # # #
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
