@@ -33,7 +33,6 @@ def loss():
 
 def on_bluetooth_connected():
     loss()
-
 bluetooth.on_bluetooth_connected(on_bluetooth_connected)
 
 weatherbit.start_weather_monitoring()
