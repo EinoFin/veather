@@ -30,7 +30,7 @@ def loss():
                 # # # # #
                 # # # # #
     """)
-
+    basic.clear_screen()
 def on_bluetooth_connected():
     loss()
 bluetooth.on_bluetooth_connected(on_bluetooth_connected)
