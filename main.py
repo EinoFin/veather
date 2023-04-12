@@ -16,12 +16,12 @@ weatherbit.start_rain_monitoring()
 weatherbit.start_wind_monitoring()
 weatherbit.start_weather_monitoring()
 serial.redirect(SerialPin.P15, SerialPin.P14, BaudRate.BAUD_RATE9600)
-timeanddate.set24_hour_time(13, 30, 0)
-timeanddate.set_date(1, 20, 2022)
+timeanddate.set24_hour_time(14, 3, 0)
+timeanddate.set_date(4, 12, 2023)
 
 def on_every_interval():
-    serial.write_line(timeanddate.time(timeanddate.TimeFormat.HHMMSS2_4HR))
     # tekee joka 5:s minuutti
+    serial.write_line(timeanddate.time(timeanddate.TimeFormat.HHMMSS2_4HR))
     soil()
     bme280()
     wind_rain()
