@@ -4,7 +4,8 @@
     "dependencies": {
         "core": "*",
         "weatherbit": "github:sparkfun/pxt-weather-bit#v0.0.19",
-        "radio-broadcast": "*"
+        "radio-broadcast": "*",
+        "microbit-pxt-timeanddate": "github:bsiever/microbit-pxt-timeanddate#v2.0.33"
     },
     "files": [
         "main.blocks",
@@ -22,5 +23,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "pyprj"
+    "preferredEditor": "blocksprj"
 }
