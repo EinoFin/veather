@@ -11,7 +11,6 @@ def bme280():
     serial.write_value("temperature", weatherbit.temperature() / 100)
     serial.write_value("humidity", weatherbit.humidity() / 1024)
     serial.write_value("pressure", weatherbit.pressure() / 25600)
-
 # aloitus
 weatherbit.start_rain_monitoring()
 weatherbit.start_wind_monitoring()
