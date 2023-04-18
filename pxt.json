@@ -5,7 +5,9 @@
         "core": "*",
         "radio-broadcast": "*",
         "microbit-pxt-timeanddate": "github:bsiever/microbit-pxt-timeanddate#v2.0.33",
-        "weatherbit": "github:littlebriars/pxt-weather-bit#v0.0.34"
+        "weatherbit": "github:littlebriars/pxt-weather-bit#v0.0.34",
+        "microbit-dstemp": "github:bsiever/microbit-dstemp#v0.1.26",
+        "pxt-esp8266_thingspeak": "github:alankrantas/pxt-esp8266_thingspeak#v0.0.3"
     },
     "files": [
         "main.blocks",
@@ -23,5 +25,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "pyprj"
+    "preferredEditor": "blocksprj"
 }

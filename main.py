@@ -1,7 +1,7 @@
 def soil():
     serial.write_value("Soil moisture", weatherbit.soil_moisture())
     # multa
-    serial.write_value("Soil temp", weatherbit.soil_temperature() / 100)
+    serial.write_value("Soil temp", dstemp.celsius(DigitalPin.P12))
 def wind_rain():
     # tuuli ja sade
     serial.write_value("Wind speed", weatherbit.wind_speed())
@@ -23,8 +23,8 @@ timeanddate.set_date(4, 14, 2023)
 def on_every_interval():
     # tekee joka 5:s minuutti
     serial.write_line("")
-    serial.write_line("["+timeanddate.date_time()+"]")
+    serial.write_line("[" + timeanddate.date_time() + "]")
     bme280()
     soil()
     wind_rain()
-loops.every_interval(60000, on_every_interval)
+loops.every_interval(10000, on_every_interval)
